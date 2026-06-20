@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://www.goroky.com/sitemap.xml
+
+# Bloquear carpetas innecesarias para rastreo
+Disallow: /assets/php/
+Disallow: /assets/js/
+Disallow: /assets/css/
+
+# Permitir imágenes para indexación
+Allow: /assets/img/
+
+# Crawl-delay para respetar el servidor
+Crawl-delay: 1
